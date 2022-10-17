@@ -1,0 +1,17 @@
+.timer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1.4em;
+  letter-spacing: -1px;
+  margin-top: 30px;
+}
+
+  .timer span {
+    font-size: 2em;
+    margin: 0 3px 0 15px;
+  }
+
+.btnContainer {
+  text-align: center;
+  margin-top: 10px;
+}

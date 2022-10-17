@@ -1,0 +1,10 @@
+<div class="timer">
+  <h1>Count Down Timer</h1>
+  <span id="days"> {{days}} </span>Day(s)
+  <span id="hours"> {{hours}} </span>Hrs
+  <span id="minutes"> {{minutes}} </span>Min
+  <span id="seconds"> {{seconds}} </span>S
+</div>
+<div class="btnContainer">
+  <button class="btn btn-primary" (click)="startStop()">{{ isRunning == true ? 'Stop' : 'Start' }}</button>
+</div>
